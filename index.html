@@ -726,27 +726,30 @@
     <div class="container py-vh-3 border-top" data-aos="fade" data-aos-delay="200">
       <div class="row d-flex justify-content-center">
         <div class="col-12 col-lg-8 text-center">
-          <h3 class="fs-2 fw-light">Stay in touch with our free<span class="fw-bold"> newsletters !</span></h3>
+          <h3 class="fs-2 fw-light">Stay in touch with our free<span class="fw-bold"> newsletters!</span></h3>
         </div>
         <div class="col-12 col-lg-8 text-center">
           <div class="row">
             <div class="grouped-inputs border bg-light p-2">
               <div class="row">
                 <div class="col">
-                  <form class="form-floating">
-                    <input type="email" class="form-control p-3" id="floatingInput" placeholder="name@example.com">
+                  <form class="contact form-floating" action="https://api.web3forms.com/submit?redirect=https://thesaysha.com/success.html" method="post">
+                    <input type="hidden" name="access_key" value="66b058d6-2a27-41db-bd33-c2e12aee64dc">
+                    <input type="hidden" name="redirect" value="https://thesaysha.com/success.html">
+                    <input type="email" class="form-control p-3" id="floatingInput" name="email" placeholder="name@example.com" required>
                     <label for="floatingInput">Email address</label>
-                  </form>
                 </div>
                 <div class="col-auto">
-                  <a id="Subscribe" href="#" class="btn btn-dark py-3 px-5">Subscribe</a>
+                  <button type="submit" class="btn btn-dark py-3 px-5">Subscribe</button>
                 </div>
-              </div>
-            </div>
+              </form>
           </div>
         </div>
       </div>
     </div>
+  </div>
+</div>
+
 
   </main>
 
